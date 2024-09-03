@@ -1,0 +1,44 @@
+.inputCard {
+  border: 1px solid red;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.inputText {
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.inputText input {
+  /* width: 60%; */
+}
+.inputText .inputCon {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 0.8rem;
+}
+.inputSelect {
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputSelect .group {
+  /* border: 1px solid black; */
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputCard > button {
+  background-color: lightblue;
+  color: white;
+  border-radius: 15px;
+  margin: 3px;
+}
+.error {
+  color: red;
+}

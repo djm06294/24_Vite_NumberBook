@@ -1,0 +1,25 @@
+.list {
+  border: 1px solid red;
+  width: 400px;
+  margin: 1rem;
+}
+.list .listInput {
+  border: 1px solid red;
+  margin: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list .listList {
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+  margin: 3px;
+}
+
+.list .listsCon {
+  display: flex;
+
+  flex-direction: column-reverse;
+}
